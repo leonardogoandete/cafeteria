@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btnCompartilhar">SHARE</string>
+    <string name="txtCardOrigem">From:</string>
+    <string name="msg_tipo_input">Enter the type</string>
+    <string name="msg_tipo_titulo">Coffee Type:</string>
+    <string name="msg_origem_titulo">From:</string>
+    <string name="msg_origem_input">Enter the country or region</string>
+    <string name="msg_descricao_titulo">Description:</string>
+    <string name="msg_descricao_input">Coffee Description</string>
+    <string name="titulo_activity_cadastrar">Register type</string>
+    <string name="btnCadastrarMsg">REGISTER</string>
+    <string name="titulo_activity_listarTipos">Type list</string>
+    <string name="titulo_activity_sobre">About</string>
+    <string name="msgSobre">At Goondete Coffee, our passion is to explore the diversity of coffee flavors. We travel the world in search of the best grains, working directly with local producers. Our letter offers from classic cappuccinos to seasonal creations, all prepared by dedicated barista. Our welcoming space is perfect for relaxing or socializing. Come discover new flavors with us at Goondete Coffee.</string>
+    <string name="msgTitleSobre">Goandete Coffee: Discover new flavors in coffee</string>
+    <string name="btnMenuListar">List</string>
+    <string name="btnMenuCadadastrar">Register</string>
+    <string name="btnMenuSobre">About</string>
+    <string name="msgToastCadTipo">Type is necessary!</string>
+    <string name="msgToastCadDescricao">Description is necessary!</string>
+    <string name="msgToastCadOrigem">From is necessary!</string>
+    <string name="msgToastCadOk">Type of registered coffee!</string>
+    <string name="btnEditar">UPDATE</string>
+    <string name="titulo_activity_editar">Edit type</string>
+    <string name="btnEditarMsg">UPDATE</string>
+</resources>

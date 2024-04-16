@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/marron_escuro"
+    tools:context=".view.SobreActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarTop"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#E0CBB8"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tituloCadastrarActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/titulo_activity_sobre"
+        android:textColor="@color/marron_escuro"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/toolbarTop"
+        app:layout_constraintTop_toTopOf="@id/toolbarTop" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/marron_escuro"
+        android:paddingTop="4dp"
+        android:paddingBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbarTop"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="74dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/marron_claro"
+            android:padding="8dp"
+            android:text="@string/msgTitleSobre"
+            android:textAlignment="center"
+            android:textColor="@color/marron_escuro"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:background="@color/marron_claro"
+            android:padding="8dp"
+            android:text="@string/msgSobre"
+            android:textColor="@color/marron_escuro"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name" translatable="false">Goandete Coffee</string>
+    <string name="nomeApp" translatable="false">Goandete Coffee</string>
+    <string name="btnCompartilhar">COMPARTILHAR</string>
+    <string name="txtCardOrigem">Origem:</string>
+    <string name="msg_tipo_input">Digite o tipo</string>
+    <string name="msg_tipo_titulo">Tipo do café:</string>
+    <string name="msg_origem_titulo">Origem:</string>
+    <string name="msg_origem_input">Digite o pais ou região</string>
+    <string name="msg_descricao_titulo">Descrição:</string>
+    <string name="msg_descricao_input">Descrição do tipo</string>
+    <string name="titulo_activity_cadastrar">Cadastrar tipo</string>
+    <string name="titulo_activity_editar">Editar tipo</string>
+    <string name="btnCadastrarMsg">CADASTRAR</string>
+    <string name="btnEditarMsg">ATUALIZAR</string>
+    <string name="titulo_activity_listarTipos">Lista de Tipos</string>
+    <string name="titulo_activity_sobre">Sobre</string>
+    <string name="msgSobre">Na Goandete Coffee, nossa paixão é explorar a diversidade de sabores do café. Viajamos o mundo em busca dos melhores grãos, trabalhando diretamente com produtores locais. Nossa carta oferece desde clássicos cappuccinos até criações sazonais, tudo preparado por baristas dedicados. Nosso espaço acolhedor é perfeito para relaxar ou socializar. Venha descobrir novos sabores conosco na Goandete Coffee.</string>
+    <string name="msgTitleSobre">Goandete Coffee: Descubra Novos Sabores no Café</string>
+    <string name="btnMenuCadadastrar">Cadastrar</string>
+    <string name="btnMenuListar">Listar</string>
+    <string name="btnMenuSobre">Sobre</string>
+    <string name="msgToastCadTipo">Tipo é obrigatório!</string>
+    <string name="msgToastCadDescricao">Descrição é obrigatório!</string>
+    <string name="msgToastCadOrigem">Origem é obrigatório!</string>
+    <string name="msgToastCadOk">Tipo de café cadastrado!</string>
+    <string name="btnEditar">EDITAR</string>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/marron_escuro"
+    tools:context=".view.CadastrarActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/marron_claro"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <TextView
+            android:id="@+id/tituloCadastrarActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/titulo_activity_cadastrar"
+            android:textColor="@color/marron_escuro"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.8"
+        android:layout_marginTop="4dp"
+        android:background="@color/marron_claro"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarTop">
+
+        <TextView
+            android:id="@+id/txtViewMsgTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/msg_tipo_titulo"
+            android:textColor="@color/marron_escuro"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtInputTipo"
+            android:layout_width="340dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/txtViewMsgTipo"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/input_redondo_cadastrar"
+            android:fontFamily="@font/roboto_mono"
+            android:hint="@string/msg_tipo_input"
+            android:inputType="text"
+            android:textColor="@color/marron_escuro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtViewMsgOrigem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtInputTipo"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="12dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/msg_origem_titulo"
+            android:textColor="@color/marron_escuro"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtInputOrigem"
+            android:layout_width="340dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/txtViewMsgOrigem"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/input_redondo_cadastrar"
+            android:fontFamily="@font/roboto_mono"
+            android:hint="@string/msg_origem_input"
+            android:inputType="text"
+            android:textColor="@color/marron_escuro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtViewMsgDescricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtInputOrigem"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="12dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/msg_descricao_titulo"
+            android:textColor="@color/marron_escuro"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtInputDescricao"
+            android:layout_width="340dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/txtViewMsgDescricao"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/input_redondo_cadastrar"
+            android:fontFamily="@font/roboto_mono"
+            android:hint="@string/msg_descricao_input"
+            android:inputType="text"
+            android:textColor="@color/marron_escuro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/marron_claro"
+        android:fontFamily="@font/roboto"
+        android:text="@string/btnCadastrarMsg"
+        android:textColor="@color/marron_escuro"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
